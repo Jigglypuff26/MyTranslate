@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--<TableLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:padding="16dp">-->
+
+                    <!--<TableRow>-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginBottom="10dp"-->
+                            <!--android:text="Email"-->
+                            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/textViewEmail"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />-->
+
+                    <!--</TableRow>-->
+
+                    <!--<TableRow>-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginBottom="10dp"-->
+                            <!--android:text="Name"-->
+                            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/textViewName"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />-->
+
+                    <!--</TableRow>-->
+
+                    <!--<TableRow>-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginBottom="10dp"-->
+                            <!--android:text="Surname"-->
+                            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/textViewSurname"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />-->
+
+                    <!--</TableRow>-->
+
+                    <!--<TableRow>-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginBottom="10dp"-->
+                            <!--android:text="Login"-->
+                            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/textViewlogin"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />-->
+
+                    <!--</TableRow>-->
+
+
+                <!--</TableLayout>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView_login"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="16dp"-->
+                    <!--android:text="Введите данные для изменения"-->
+                    <!--android:textColor="@color/hintcolor"-->
+                    <!--android:textSize="16sp" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/ent_cheng_email"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:ems="10"-->
+                    <!--android:textSize="16dp"-->
+                    <!--android:hint="@string/star_act_login"-->
+                    <!--android:inputType="textEmailAddress"-->
+                    <!--android:textAppearance="@style/TextAppearance.AppCompat"-->
+                    <!--android:textColor="@color/str_act_button2"-->
+                    <!--android:textColorHint="@color/hintcolor" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/ent_cheng_name"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:textSize="16dp"-->
+                    <!--android:ems="10"-->
+                    <!--android:hint="введите ваше имя"-->
+                    <!--android:inputType="textPersonName"-->
+                    <!--android:textAppearance="@style/TextAppearance.AppCompat"-->
+                    <!--android:textColor="@color/str_act_button2"-->
+                    <!--android:textColorHint="@color/hintcolor" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/ent_cheng_surname"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:textSize="16dp"-->
+                    <!--android:ems="10"-->
+                    <!--android:hint="введите вашу фамилию"-->
+                    <!--android:inputType="textPersonName"-->
+                    <!--android:textAppearance="@style/TextAppearance.AppCompat"-->
+                    <!--android:textColor="@color/str_act_button2"-->
+                    <!--android:textColorHint="@color/hintcolor" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/button_cheng_data"-->
+                    <!--android:layout_width="200dp"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:background="@drawable/buttom_log"-->
+                    <!--android:text="Изменить"-->
+                    <!--android:textAppearance="@style/TextAppearance.AppCompat.Button"-->
+                    <!--android:textColor="@color/str_act_text2"-->
+                    <!--android:textSize="14sp" />-->
+
+                <TextView
+                    android:id="@+id/textView_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="введите пароль для изменения"
+                    android:textColor="@color/hintcolor"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ent_cheng_old_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="16dp"
+                    android:ems="10"
+                    android:hint="введите старый пароль"
+                    android:inputType="textPassword"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/str_act_button2"
+                    android:textColorHint="@color/hintcolor" />
+
+                <EditText
+                    android:id="@+id/ent_cheng_new_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="16dp"
+                    android:ems="10"
+                    android:hint="введите новый пароль"
+                    android:inputType="textPassword"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/str_act_button2"
+                    android:textColorHint="@color/hintcolor" />
+
+                <Button
+                    android:id="@+id/button_cheng_pass"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttom_log"
+                    android:text="Изменить"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:textColor="@color/str_act_text2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_out_log"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_reg"
+                android:textColor="@color/yellow_lig"
+                android:text="@string/str_act_button_log"
+                android:layout_marginTop="16dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

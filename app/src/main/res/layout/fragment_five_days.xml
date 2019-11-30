@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".weather.Fragments.five_days">
+<LinearLayout
+    android:id="@+id/main_5_days"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/button_weather_up"
+        />
+    <TextView
+        android:id="@+id/five_days"
+        android:textSize="24sp"
+        android:text="Погода по часам на 5 дней"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_city_name_5"
+        android:textSize="19sp"
+        android:text="Погода в N/A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/button_weather_down"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_five"
+            android:layout_below="@id/main_5_days"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="450dp">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>

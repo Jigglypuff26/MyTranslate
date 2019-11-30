@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Turist Info</string>
+    <string name="str_acr_marker1">ВХОД В СИСТЕМУ</string>
+    <string name="star_act_login">ваш e-mail</string>
+    <string name="str_act_pass">введите пароль</string>
+    <string name="str_act_button_log">ВХОД</string>
+    <string name="str_act_button_reg">зарегестрироваться</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

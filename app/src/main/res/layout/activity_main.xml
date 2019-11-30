@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/str_acr_marker1"
+                android:textColor="@color/hintcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/ent_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:ems="10"
+                android:hint="@string/star_act_login"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/str_act_button2"
+                android:textColorHint="@color/hintcolor" />
+
+            <EditText
+                android:id="@+id/ent_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:ems="10"
+                android:hint="@string/str_act_pass"
+                android:inputType="textPassword"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/str_act_button2"
+                android:textColorHint="@color/hintcolor" />
+
+            <Button
+                android:id="@+id/button_reg"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@drawable/buttom_log"
+                android:textColor="@color/str_act_text2"
+                android:text="@string/str_act_button_log"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_act_create"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/button_reg"
+            android:textColor="@color/yellow_lig"
+            android:text="@string/str_act_button_reg"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

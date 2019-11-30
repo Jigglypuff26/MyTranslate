@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_fraze"
+        android:icon="@drawable/ic_phrase"
+        android:title="Разговорник"
+        />
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_wb_sunny_black_24dp"
+        android:title="Погода"
+        />
+    <item
+        android:id="@+id/ER_money"
+        android:icon="@drawable/ic_money"
+        android:title="Конвертер валют"
+        />
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Настройки"
+        />
+</menu>

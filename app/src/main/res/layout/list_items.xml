@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:background="@drawable/liasview_bg"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/listview_radius"
+            >
+
+            <TextView
+                android:id="@+id/textView_Turkey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="96dp"
+                android:textColor="@color/str_act_text2"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="Турецкий" />
+
+            <ImageView
+                android:id="@+id/imageView_Turkey"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/turkeyflag" />
+
+            <TextView
+                android:id="@+id/textView_Turkey_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_Turkey"
+                android:layout_alignStart="@+id/textView_Turkey"
+                android:layout_marginStart="-29dp"
+                android:textColor="@color/black"
+                android:text="надпись"
+                android:textSize="19dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/listview_radius">
+
+            <TextView
+                android:id="@+id/textView_Rus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="96dp"
+                android:textColor="@color/str_act_text2"
+                android:textStyle="italic"
+                android:text="Русский"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/imageView_Rus"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+
+                app:srcCompat="@drawable/russiaflag" />
+
+            <TextView
+                android:id="@+id/textView_Rus_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_Rus"
+                android:layout_alignStart="@+id/textView_Rus"
+                android:layout_marginStart="-29dp"
+                android:textColor="@color/black"
+                android:text="надпись"
+                android:textSize="19dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/listview_radius">
+
+            <TextView
+                android:id="@+id/textView_transkript"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="96dp"
+                android:textColor="@color/str_act_text2"
+                android:textStyle="italic"
+                android:text="Транскрипция"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/imageView_transkript"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ic_translate"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/textView_transkript_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_transkript"
+                android:layout_alignStart="@+id/textView_transkript"
+                android:layout_marginStart="-29dp"
+                android:textColor="@color/black"
+                android:text="надпись"
+                android:textSize="19dp"/>
+
+        </RelativeLayout>
+
+            <CheckBox
+                android:id="@+id/checkBox_to_favorit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:button="@drawable/checkbox_img"
+
+                android:text="    Добавить в избранное" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

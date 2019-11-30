@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    стартовая активити
+    <color name="hintcolor">#aeaeae</color>
+    <color name="str_act_text">#ebd564</color>
+    <color name="str_act_text2">#3d509a</color>
+    <color name="str_act_button1">#ebd564</color>
+    <color name="str_act_button2">#3d509a</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FC4C34</color>
+
+
+    <color name="white">#fcfcfc</color>
+    <color name="black">#000</color>
+    <color name="yellow_lig">#ffc107</color>
+    <color name="yellow_pur">#ffb330</color>
+    <color name="violett">#a188e6</color>
+    <color name="violett1">#7c4dff</color>
+    <color name="vasilcovy">#6495ED</color>
+    <color name="bab_apple">#A8E4A0</color>
+    <color name="aliy">#F34723</color>
+    <color name="orange">#FF7514</color>
+    <color name="birusa">#3dd1e6</color>
+
+
+
+
+
+
+</resources>

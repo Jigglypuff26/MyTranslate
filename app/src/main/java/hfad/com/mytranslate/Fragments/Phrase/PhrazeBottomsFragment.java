@@ -1,0 +1,47 @@
+package hfad.com.mytranslate.Fragments.Phrase;
+
+import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import hfad.com.mytranslate.Fragments.FrazeFragment;
+import hfad.com.mytranslate.R;
+
+public class PhrazeBottomsFragment  extends Fragment implements View.OnClickListener {
+
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.phraze_buttoms, container, false);
+    }
+
+    private void BackToFrazeFragment() {
+
+        int ft = getFragmentManager().beginTransaction().replace(R.id.relativeLayout, new FrazeFragment())
+                .commit();
+
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        //слушетели для кнопок
+        view.findViewById(R.id.back_button).setOnClickListener(this);
+
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        switch (v.getId()) {
+            case R.id.back_button:
+                BackToFrazeFragment();
+                break;
+        }
+
+    }
+}
